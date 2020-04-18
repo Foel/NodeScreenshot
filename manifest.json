@@ -7,13 +7,13 @@
     "description": "Adds a red border to all webpages matching mozilla.org.",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "icons/local_see-24px.svg"
     },
   
     "content_scripts": [
       {
         "matches": ["*://*.mozilla.org/*"],
-        "js": ["NodeScreenshot.js"]
+        "js": ["borderify.js"]
       }
     ]
   
